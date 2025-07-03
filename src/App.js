@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+// src/App.js
+import React from 'react';
+import Navbar from './components/Navbar';
+import Home from './pages/Home';
+import About from './pages/About';
+import Skills from './pages/Skills';         // ✅ Skills
+import Education from './pages/Education';   // ✅ Education
+import Projects from './pages/Projects';
+import Contact from './pages/Contact';
+import Footer from './components/Footer';
+import './styles/global.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => (
+  <>
+    <Navbar />
+    <main>
+      <section id="home"><Home /></section>
+      <section id="about"><About /></section>
+      <section id="skills"><Skills /></section>       {/* ✅ Skills Section */}
+      <Education />                                   {/* ✅ Add here directly, no section ID */}
+      <section id="projects"><Projects /></section>
+      <section id="contact"><Contact /></section>
+    </main>
+    <Footer />
+  </>
+);
 
 export default App;

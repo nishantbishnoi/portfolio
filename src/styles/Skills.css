@@ -1,0 +1,67 @@
+/* src/pages/Skills.css */
+
+.skills-section {
+  background-color: #0f172a;
+  color: #ffffff;
+  padding: 4rem 1rem;
+  text-align: center;
+}
+
+.skills-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #38bdf8;
+}
+
+.skills-marquee {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  padding: 1rem 0;
+}
+
+.marquee-track {
+  display: flex;
+  gap: 3rem;
+  animation: scroll-left 25s linear infinite;
+  width: max-content;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 100px;
+}
+
+.skill-item img {
+  width: 60px;
+  height: 60px;
+}
+
+.skill-item p {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  color: #38bdf8;
+  font-weight: 500;
+}
+
+@media (max-width: 600px) {
+  .skill-item img {
+    width: 45px;
+    height: 45px;
+  }
+
+  .skill-item p {
+    font-size: 0.85rem;
+  }
+}

@@ -1,0 +1,103 @@
+/* src/pages/Education.css */
+.education-section {
+  background-color: #0f172a;
+  padding: 4rem 1rem;
+  color: #ffffff;
+  text-align: center;
+}
+
+.education-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+  background: linear-gradient(to right, #a855f7, #06b6d4);
+  display: inline-block;
+  padding: 0.5rem 2.5rem;
+  border-radius: 999px;
+  color: white;
+}
+
+.education-box {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #101c35;
+  padding: 2.5rem 2rem;
+  border-radius: 25px;
+  box-shadow: 0 0 25px rgba(0, 255, 255, 0.05);
+}
+
+.education-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 3rem;
+  position: relative;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 1.5rem;
+}
+
+.dot {
+  width: 14px;
+  height: 14px;
+  background: linear-gradient(to right, #a855f7, #06b6d4);
+  border-radius: 50%;
+}
+
+.line {
+  width: 2px;
+  background: rgba(255, 255, 255, 0.2);
+  flex: 1;
+  margin-top: 2px;
+}
+
+.education-content {
+  text-align: left;
+  flex: 1;
+}
+
+.education-content h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.institute {
+  color: #94a3b8;
+  font-size: 1rem;
+}
+
+.education-year {
+  font-size: 0.95rem;
+  color: #94a3b8;
+  text-align: right;
+  min-width: 100px;
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+  .education-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .timeline {
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+
+  .line {
+    height: 2px;
+    width: 30px;
+    margin-left: 8px;
+  }
+
+  .education-year {
+    text-align: left;
+    margin-top: 0.5rem;
+  }
+}

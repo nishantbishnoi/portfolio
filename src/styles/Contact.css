@@ -1,0 +1,117 @@
+.contact-section {
+  background-color: #0f172a;
+  color: #fff;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2.8rem;
+  margin-bottom: 50px;
+  background: linear-gradient(to right, #aa4bff, #00d4ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  max-width: 1100px;
+  margin: auto;
+  background-color: #0d152b;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+}
+
+.contact-info,
+.contact-form {
+  flex: 1;
+  min-width: 280px;
+}
+
+.info-box {
+  background: #101c39;
+  border-radius: 12px;
+  padding: 18px 22px;
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+  transition: background 0.3s;
+}
+
+.info-box:hover {
+  background-color: #141f3e;
+}
+
+.info-box i {
+  font-size: 1.3rem;
+  color: #00d4ff;
+}
+
+.info-box span {
+  font-size: 1.05rem;
+  font-weight: 500;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 14px 18px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #101c39;
+  color: #fff;
+  font-size: 1rem;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  background-color: #151f3e;
+  outline: none;
+}
+
+.contact-form button {
+  background: linear-gradient(to right, #aa4bff, #00d4ff);
+  border: none;
+  color: white;
+  padding: 14px 35px;
+  font-size: 1rem;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.contact-form button:hover {
+  transform: scale(1.05);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+    padding: 30px 20px;
+  }
+
+  .section-title {
+    font-size: 2.2rem;
+  }
+
+  .info-box span {
+    font-size: 0.95rem;
+  }
+
+  .contact-form button {
+    width: 100%;
+    padding: 12px 0;
+  }
+}

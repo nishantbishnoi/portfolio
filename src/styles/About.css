@@ -1,0 +1,56 @@
+/* src/pages/About.css */
+
+.about-section {
+  background-color: #0f172a;
+  color: #ffffff;
+  padding: 4rem 2rem;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.about-heading {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #38bdf8;
+}
+
+.about-container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #1e293b;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  text-align: left;
+}
+
+.about-description {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+  color: #e2e8f0;
+}
+
+.about-details p {
+  font-size: 1rem;
+  margin: 0.3rem 0;
+  color: #cbd5e1;
+}
+
+.about-details strong {
+  color: #38bdf8;
+}
+
+@media (max-width: 600px) {
+  .about-heading {
+    font-size: 2rem;
+  }
+
+  .about-description {
+    font-size: 1rem;
+  }
+
+  .about-container {
+    padding: 1.5rem;
+  }
+}
