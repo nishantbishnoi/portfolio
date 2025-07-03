@@ -3,7 +3,7 @@ import React from "react";
 import "../styles/Projects.css";
 import foodAppImg from "./Screenshot 2025-07-03 154535.png";
 import formBuilderImg from "./Screenshot 2025-07-03 154535.png";
-import portfolioImg from "./Screenshot 2025-07-03 154535.png";
+import portfolioImg from "./download.png";
 
 const projects = [
   {
@@ -24,7 +24,7 @@ const projects = [
     title: "Personal Portfolio",
     description: "Responsive portfolio showcasing skills, education, and live projects with animations and smooth scroll.",
     image: portfolioImg,
-    live: "https://your-portfolio.vercel.app",
+    live: "https://portfolio-mocha-three-77.vercel.app",
     github: "https://github.com/your-username/portfolio"
   },
 ];
