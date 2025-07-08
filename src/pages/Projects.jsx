@@ -2,22 +2,22 @@
 import React from "react";
 import "../styles/Projects.css";
 import foodAppImg from "./Screenshot 2025-07-03 154535.png";
-import formBuilderImg from "./Screenshot 2025-07-03 154535.png";
-import portfolioImg from "./download.png";
+import formBuilderImg from "./Screenshot 2025-07-08 094343.png";
+import portfolioImg from "./Screenshot 2025-07-03 171236.png";
 
 const projects = [
   {
     title: "Food Ordering App",
     description: "A real-time food ordering system with cart, admin, and kitchen views using React, Node.js, MongoDB.",
     image: foodAppImg,
-    live: "https://your-food-app.vercel.app",
+    live: "https://macdonals.vercel.app/",
     github: "https://github.com/your-username/food-app"
   },
   {
     title: "No-Code Form Builder",
     description: "Drag-and-drop builder with dynamic form fields and MongoDB data saving using React & Express.",
     image: formBuilderImg,
-    live: "https://your-form-builder.vercel.app",
+    live: "https://studynotion-online.vercel.app/",
     github: "https://github.com/your-username/form-builder"
   },
   {
@@ -42,7 +42,7 @@ const Projects = () => {
               <p>{proj.description}</p>
               <div className="project-links">
                 <a href={proj.live} target="_blank" rel="noreferrer">Live Demo</a>
-                <a href={proj.github} target="_blank" rel="noreferrer">GitHub</a>
+          
               </div>
             </div>
           </div>

@@ -15,6 +15,7 @@ const Home = () => {
           building robust web, mobile, and desktop applications.
         </p>
         <a href="/NISHANT_250211_111209_250515_105304.pdf" download className="download-btn">
+
          Download CV
        </a>
 
