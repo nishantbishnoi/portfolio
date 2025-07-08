@@ -14,8 +14,8 @@ const projects = [
     github: "https://github.com/your-username/food-app"
   },
   {
-    title: "No-Code Form Builder",
-    description: "Drag-and-drop builder with dynamic form fields and MongoDB data saving using React & Express.",
+    title: "studynotion-online",
+    description: "Built a fully functional e-commerce platform with Node.js, Express, and MongoDB, including user authentication and payment gateway integration.",
     image: formBuilderImg,
     live: "https://studynotion-online.vercel.app/",
     github: "https://github.com/your-username/form-builder"
